@@ -9,8 +9,8 @@ from contextlib import redirect_stdout
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
-from EzilaXBotV import LOGGER, dispatcher
-from EzilaXBotV.modules.helper_funcs.chat_status import dev_plus
+from EzilaX import LOGGER, dispatcher
+from EzilaX.modules.helper_funcs.chat_status import dev_plus
 
 namespaces = {}
 
