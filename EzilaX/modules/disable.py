@@ -23,12 +23,12 @@ if is_module_loaded(FILENAME):
 
     from telegram.ext.dispatcher import run_async
 
-    from EzilaXBotV.modules.helper_funcs.chat_status import (
+    from EzilaX.modules.helper_funcs.chat_status import (
         connection_status,
         is_user_admin,
         user_admin,
     )
-    from EzilaXBotV.modules.sql import disable_sql as sql
+    from EzilaX.modules.sql import disable_sql as sql
 
     DISABLE_CMDS = []
     DISABLE_OTHER = []
