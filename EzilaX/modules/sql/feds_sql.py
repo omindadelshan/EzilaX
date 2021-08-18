@@ -3,8 +3,8 @@ import threading
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText
 from telegram.error import BadRequest, Unauthorized
 
-from EzilaXBotV import dispatcher
-from EzilaXBotV.modules.sql import BASE, SESSION
+from EzilaX import dispatcher
+from EzilaX.modules.sql import BASE, SESSION
 
 
 class Federations(BASE):
