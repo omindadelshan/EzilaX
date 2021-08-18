@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, Integer, String, UnicodeText, distinct, func
 
-from EzilaXBotV.modules.sql import BASE, SESSION
+from EzilaX.modules.sql import BASE, SESSION
 
 
 class StickersFilters(BASE):
