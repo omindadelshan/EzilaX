@@ -5,13 +5,13 @@ from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters, MessageHandler, run_async
 
-from EzilaXBotV import dispatcher
-from EzilaXBotV.modules.disable import (
+from EzilaX import dispatcher
+from EzilaX.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
-from EzilaXBotV.modules.sql import afk_sql as sql
-from EzilaXBotV.modules.users import get_user_id
+from EzilaX.modules.sql import afk_sql as sql
+from EzilaX.modules.users import get_user_id
 
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
