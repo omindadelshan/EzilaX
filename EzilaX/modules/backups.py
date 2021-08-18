@@ -7,22 +7,22 @@ from telegram import Message, ParseMode
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async
 
-# from EzilaXBotV.modules.sql import warns_sql as warnssql
-import EzilaXBotV.modules.sql.blacklist_sql as blacklistsql
+# from EzilaX.modules.sql import warns_sql as warnssql
+import EzilaX.modules.sql.blacklist_sql as blacklistsql
 
-# from EzilaXBotV.modules.sql import cust_filters_sql as filtersql
-# import EzilaXBotV.modules.sql.welcome_sql as welcsql
-import EzilaXBotV.modules.sql.locks_sql as locksql
-import EzilaXBotV.modules.sql.notes_sql as sql
+# from EzilaX.modules.sql import cust_filters_sql as filtersql
+# import EzilaX.modules.sql.welcome_sql as welcsql
+import EzilaX.modules.sql.locks_sql as locksql
+import EzilaX.modules.sql.notes_sql as sql
 
-# from EzilaXBotV.modules.rules import get_rules
-import EzilaXBotV.modules.sql.rules_sql as rulessql
-from EzilaXBotV import JOIN_LOGGER, LOGGER, OWNER_ID, dispatcher
-from EzilaXBotV.__main__ import DATA_IMPORT
-from EzilaXBotV.modules.connection import connected
-from EzilaXBotV.modules.helper_funcs.alternate import typing_action
-from EzilaXBotV.modules.helper_funcs.chat_status import user_admin
-from EzilaXBotV.modules.sql import disable_sql as disabledsql
+# from EzilaX.modules.rules import get_rules
+import EzilaX.modules.sql.rules_sql as rulessql
+from EzilaX import JOIN_LOGGER, LOGGER, OWNER_ID, dispatcher
+from EzilaX.__main__ import DATA_IMPORT
+from EzilaX.modules.connection import connected
+from EzilaX.modules.helper_funcs.alternate import typing_action
+from EzilaX.modules.helper_funcs.chat_status import user_admin
+from EzilaX.modules.sql import disable_sql as disabledsql
 
 
 @run_async
