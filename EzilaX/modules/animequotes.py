@@ -4,9 +4,9 @@ import random
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 
-import EzilaXBotV.modules.animequotesstring as animequotesstring
-from EzilaXBotV import dispatcher
-from EzilaXBotV.modules.disable import DisableAbleCommandHandler
+import EzilaX.modules.animequotesstring as animequotesstring
+from EzilaX import dispatcher
+from EzilaX.modules.disable import DisableAbleCommandHandler
 
 
 @run_async
