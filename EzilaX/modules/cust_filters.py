@@ -15,23 +15,23 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from EzilaXBotV import DRAGONS, LOGGER, dispatcher
-from EzilaXBotV.modules.connection import connected
-from EzilaXBotV.modules.disable import DisableAbleCommandHandler
-from EzilaXBotV.modules.helper_funcs.alternate import send_message, typing_action
-from EzilaXBotV.modules.helper_funcs.chat_status import user_admin
-from EzilaXBotV.modules.helper_funcs.extraction import extract_text
-from EzilaXBotV.modules.helper_funcs.filters import CustomFilters
-from EzilaXBotV.modules.helper_funcs.handlers import MessageHandlerChecker
-from EzilaXBotV.modules.helper_funcs.misc import build_keyboard_parser
-from EzilaXBotV.modules.helper_funcs.msg_types import get_filter_type
-from EzilaXBotV.modules.helper_funcs.string_handling import (
+from EzilaX import DRAGONS, LOGGER, dispatcher
+from EzilaX.modules.connection import connected
+from EzilaX.modules.disable import DisableAbleCommandHandler
+from EzilaX.modules.helper_funcs.alternate import send_message, typing_action
+from EzilaX.modules.helper_funcs.chat_status import user_admin
+from EzilaX.modules.helper_funcs.extraction import extract_text
+from EzilaX.modules.helper_funcs.filters import CustomFilters
+from EzilaX.modules.helper_funcs.handlers import MessageHandlerChecker
+from EzilaX.modules.helper_funcs.misc import build_keyboard_parser
+from EzilaX.modules.helper_funcs.msg_types import get_filter_type
+from EzilaX.modules.helper_funcs.string_handling import (
     button_markdown_parser,
     escape_invalid_curly_brackets,
     markdown_to_html,
     split_quotes,
 )
-from EzilaXBotV.modules.sql import cust_filters_sql as sql
+from EzilaX.modules.sql import cust_filters_sql as sql
 
 HANDLER_GROUP = 10
 
