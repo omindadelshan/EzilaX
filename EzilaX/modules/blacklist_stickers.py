@@ -7,16 +7,16 @@ from telegram.ext import CallbackContext, CommandHandler, Filters, MessageHandle
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import mention_html, mention_markdown
 
-import EzilaXBotV.modules.sql.blsticker_sql as sql
-from EzilaXBotV import LOGGER, dispatcher
-from EzilaXBotV.modules.connection import connected
-from EzilaXBotV.modules.disable import DisableAbleCommandHandler
-from EzilaXBotV.modules.helper_funcs.alternate import send_message
-from EzilaXBotV.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from EzilaXBotV.modules.helper_funcs.misc import split_message
-from EzilaXBotV.modules.helper_funcs.string_handling import extract_time
-from EzilaXBotV.modules.log_channel import loggable
-from EzilaXBotV.modules.warns import warn
+import EzilaX.modules.sql.blsticker_sql as sql
+from EzilaX import LOGGER, dispatcher
+from EzilaX.modules.connection import connected
+from EzilaX.modules.disable import DisableAbleCommandHandler
+from EzilaX.modules.helper_funcs.alternate import send_message
+from EzilaX.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from EzilaX.modules.helper_funcs.misc import split_message
+from EzilaX.modules.helper_funcs.string_handling import extract_time
+from EzilaX.modules.log_channel import loggable
+from EzilaX.modules.warns import warn
 
 
 @run_async
