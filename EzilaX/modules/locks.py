@@ -14,19 +14,19 @@ from telegram.ext import CommandHandler, Filters, MessageHandler
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import mention_html
 
-import EzilaXBotV.modules.sql.locks_sql as sql
-from EzilaXBotV import DRAGONS, LOGGER, dispatcher
-from EzilaXBotV.modules.connection import connected
-from EzilaXBotV.modules.disable import DisableAbleCommandHandler
-from EzilaXBotV.modules.helper_funcs.alternate import send_message, typing_action
-from EzilaXBotV.modules.helper_funcs.chat_status import (
+import EzilaX.modules.sql.locks_sql as sql
+from EzilaX import DRAGONS, LOGGER, dispatcher
+from EzilaX.modules.connection import connected
+from EzilaX.modules.disable import DisableAbleCommandHandler
+from EzilaX.modules.helper_funcs.alternate import send_message, typing_action
+from EzilaX.modules.helper_funcs.chat_status import (
     can_delete,
     is_bot_admin,
     is_user_admin,
     user_admin,
     user_not_admin,
 )
-from EzilaXBotV.modules.log_channel import loggable
+from EzilaX.modules.log_channel import loggable
 
 ad = AlphabetDetector()
 
