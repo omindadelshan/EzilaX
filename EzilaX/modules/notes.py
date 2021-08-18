@@ -23,14 +23,14 @@ from telegram.ext import (
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import escape_markdown, mention_markdown
 
-import EzilaXBotV.modules.sql.notes_sql as sql
-from EzilaXBotV import DRAGONS, JOIN_LOGGER, LOGGER, SUPPORT_CHAT, dispatcher
-from EzilaXBotV.modules.disable import DisableAbleCommandHandler
-from EzilaXBotV.modules.helper_funcs.chat_status import connection_status, user_admin
-from EzilaXBotV.modules.helper_funcs.handlers import MessageHandlerChecker
-from EzilaXBotV.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from EzilaXBotV.modules.helper_funcs.msg_types import get_note_type
-from EzilaXBotV.modules.helper_funcs.string_handling import (
+import EzilaX.modules.sql.notes_sql as sql
+from EzilaX import DRAGONS, JOIN_LOGGER, LOGGER, SUPPORT_CHAT, dispatcher
+from EzilaX.modules.disable import DisableAbleCommandHandler
+from EzilaX.modules.helper_funcs.chat_status import connection_status, user_admin
+from EzilaX.modules.helper_funcs.handlers import MessageHandlerChecker
+from EzilaX.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from EzilaX.modules.helper_funcs.msg_types import get_note_type
+from EzilaX.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
 )
 
