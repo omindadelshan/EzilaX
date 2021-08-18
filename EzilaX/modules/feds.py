@@ -22,17 +22,17 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html, mention_markdown
 
-import EzilaXBotV.modules.sql.feds_sql as sql
-from EzilaXBotV import DRAGONS, EVENT_LOGS, LOGGER, OWNER_ID, TIGERS, WOLVES, dispatcher
-from EzilaXBotV.modules.disable import DisableAbleCommandHandler
-from EzilaXBotV.modules.helper_funcs.alternate import send_message
-from EzilaXBotV.modules.helper_funcs.chat_status import is_user_admin
-from EzilaXBotV.modules.helper_funcs.extraction import (
+import EzilaX.modules.sql.feds_sql as sql
+from EzilaX import DRAGONS, EVENT_LOGS, LOGGER, OWNER_ID, TIGERS, WOLVES, dispatcher
+from EzilaX.modules.disable import DisableAbleCommandHandler
+from EzilaX.modules.helper_funcs.alternate import send_message
+from EzilaX.modules.helper_funcs.chat_status import is_user_admin
+from EzilaX.modules.helper_funcs.extraction import (
     extract_unt_fedban,
     extract_user,
     extract_user_fban,
 )
-from EzilaXBotV.modules.helper_funcs.string_handling import markdown_parser
+from EzilaX.modules.helper_funcs.string_handling import markdown_parser
 
 # Hello bot owner, I spended for feds many hours of my life, Please don't remove this if you still respect MrYacha and peaktogoo and AyraHikari too
 # Federation by MrYacha 2018-2019
