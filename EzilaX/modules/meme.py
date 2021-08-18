@@ -8,14 +8,14 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import escape_markdown
 
-import EzilaXBotV.modules.helper_funcs.fun_strings as fun
-from EzilaXBotV import DEMONS, DRAGONS, dispatcher
-from EzilaXBotV.modules.disable import (
+import EzilaX.modules.helper_funcs.fun_strings as fun
+from EzilaX import DEMONS, DRAGONS, dispatcher
+from EzilaX.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
-from EzilaXBotV.modules.helper_funcs.alternate import typing_action
-from EzilaXBotV.modules.helper_funcs.extraction import extract_user
+from EzilaX.modules.helper_funcs.alternate import typing_action
+from EzilaX.modules.helper_funcs.extraction import extract_user
 
 
 @run_async
