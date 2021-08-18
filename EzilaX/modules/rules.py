@@ -12,10 +12,10 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import escape_markdown
 
-import EzilaXBotV.modules.sql.rules_sql as sql
-from EzilaXBotV import dispatcher
-from EzilaXBotV.modules.helper_funcs.chat_status import user_admin
-from EzilaXBotV.modules.helper_funcs.string_handling import markdown_parser
+import EzilaX.modules.sql.rules_sql as sql
+from EzilaX import dispatcher
+from EzilaX.modules.helper_funcs.chat_status import user_admin
+from EzilaX.modules.helper_funcs.string_handling import markdown_parser
 
 
 @run_async
