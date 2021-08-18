@@ -27,12 +27,12 @@ from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import escape_markdown
 from tswift import Song
 
-from EzilaXBotV import DEV_USERS, OWNER_ID, dispatcher
-from EzilaXBotV.__main__ import GDPR, STATS
-from EzilaXBotV.modules.disable import DisableAbleCommandHandler
-from EzilaXBotV.modules.helper_funcs.alternate import send_action, typing_action
-from EzilaXBotV.modules.helper_funcs.chat_status import user_admin
-from EzilaXBotV.modules.helper_funcs.filters import CustomFilters
+from EzilaX import DEV_USERS, OWNER_ID, dispatcher
+from EzilaX.__main__ import GDPR, STATS
+from EzilaX.modules.disable import DisableAbleCommandHandler
+from EzilaX.modules.helper_funcs.alternate import send_action, typing_action
+from EzilaX.modules.helper_funcs.chat_status import user_admin
+from EzilaX.modules.helper_funcs.filters import CustomFilters
 
 
 @run_async
