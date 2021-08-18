@@ -1,6 +1,6 @@
-from EzilaXBotV.events import register
-from EzilaXBotV import OWNER_ID
-from EzilaXBotV import telethn as tbot
+from EzilaX.events import register
+from EzilaX import OWNER_ID
+from EzilaX import telethn as tbot
 import os 
 from PIL import Image, ImageDraw, ImageFont
 import shutil 
@@ -84,13 +84,13 @@ async def lego(event):
  await event.reply("Creating your logo...wait!")
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./EzilaXBotV/resources/blackbg.jpg')
+    img = Image.open('./EzilaX/resources/blackbg.jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
     fillcolor = "gold"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./EzilaXBotV/resources/Chopsic.otf", 330)
+    font = ImageFont.truetype("./EzilaX/resources/Chopsic.otf", 330)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
@@ -98,7 +98,7 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
-    fname2 = "EzilaXBotVLogo.png"
+    fname2 = "EzilaXLogo.png"
     img.save(fname2, "png")
     await tbot.send_file(event.chat_id, fname2, caption="Made By @EzilaXBot")
     if os.path.exists(fname2):
@@ -121,13 +121,13 @@ async def lego(event):
  await event.reply("Creating your logo...wait!")
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./EzilaXBotV/resources/blackbg.jpg')
+    img = Image.open('./EzilaX/resources/blackbg.jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
     fillcolor = "gold"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./EzilaXBotV/resources/Chopsic.otf", 950)
+    font = ImageFont.truetype("./EzilaX/resources/Chopsic.otf", 950)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
@@ -135,7 +135,7 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
-    fname2 = "EzilaXBotVLogo.png"
+    fname2 = "EzilaXLogo.png"
     img.save(fname2, "png")
     await tbot.send_file(event.chat_id, fname2, caption="Made By @EzilaXBot")
     if os.path.exists(fname2):
@@ -159,13 +159,13 @@ async def lego(event):
  await event.reply("Creating your logo...wait!")
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./EzilaXBotV/resources/blackbg.jpg')
+    img = Image.open('./EzilaX/resources/blackbg.jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
     fillcolor = "white"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./EzilaXBotV/resources/Maghrib.ttf", 1000)
+    font = ImageFont.truetype("./EzilaX/resources/Maghrib.ttf", 1000)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
@@ -173,7 +173,7 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="white", stroke_width=0, stroke_fill="white")
-    fname2 = "EzilaXBotVLogo.png"
+    fname2 = "EzilaXLogo.png"
     img.save(fname2, "png")
     await tbot.send_file(event.chat_id, fname2, caption="Made By @EzilaXBot")
     if os.path.exists(fname2):
