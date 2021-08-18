@@ -6,9 +6,9 @@ from telethon import *
 from telethon.tl import functions, types
 from telethon.tl.types import *
 
-from EzilaXBotV import *
-from EzilaXBotV import telethn
-from EzilaXBotV.events import register
+from EzilaX import *
+from EzilaX import telethn
+from EzilaX.events import register
 
 
 async def is_register_admin(chat, user):
