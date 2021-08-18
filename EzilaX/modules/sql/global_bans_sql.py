@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText
 
-from EzilaXBotV.modules.sql import BASE, SESSION
+from EzilaX.modules.sql import BASE, SESSION
 
 
 class GloballyBannedUsers(BASE):
