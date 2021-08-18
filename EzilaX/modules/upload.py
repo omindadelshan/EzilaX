@@ -7,9 +7,9 @@ import traceback
 import aiohttp
 from telethon import events
 
-from EzilaXBotV import telethn as bot
-from EzilaXBotV.modules.urluploader import download_file
-from EzilaXBotV.utils.uputils import humanbytes, progress
+from EzilaX import telethn as bot
+from EzilaX.modules.urluploader import download_file
+from EzilaX.utils.uputils import humanbytes, progress
 
 DOWNLOADPATH = "Downloads/"
 
