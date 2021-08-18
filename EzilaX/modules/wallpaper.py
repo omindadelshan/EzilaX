@@ -4,8 +4,8 @@ import requests as r
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 
-from EzilaXBotV import SUPPORT_CHAT, WALL_API, dispatcher
-from EzilaXBotV.modules.disable import DisableAbleCommandHandler
+from EzilaX import SUPPORT_CHAT, WALL_API, dispatcher
+from EzilaX.modules.disable import DisableAbleCommandHandler
 
 # Wallpapers module by @TheRealPhoenix using wall.alphacoders.com
 
