@@ -7,9 +7,9 @@ from PIL import Image
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 
-from EzilaXBotV import dispatcher
-from EzilaXBotV.modules.disable import DisableAbleCommandHandler
-from EzilaXBotV.modules.thonkify_dict import thonkifydict
+from EzilaX import dispatcher
+from EzilaX.modules.disable import DisableAbleCommandHandler
+from EzilaX.modules.thonkify_dict import thonkifydict
 
 
 @run_async
