@@ -9,15 +9,15 @@ from telegram.ext import (
     run_async,
 )
 
-from EzilaXBotV import ALLOW_EXCL, CustomCommandHandler, dispatcher
-from EzilaXBotV.modules.disable import DisableAbleCommandHandler
-from EzilaXBotV.modules.helper_funcs.chat_status import (
+from EzilaX import ALLOW_EXCL, CustomCommandHandler, dispatcher
+from EzilaX.modules.disable import DisableAbleCommandHandler
+from EzilaX.modules.helper_funcs.chat_status import (
     bot_can_delete,
     connection_status,
     dev_plus,
     user_admin,
 )
-from EzilaXBotV.modules.sql import cleaner_sql as sql
+from EzilaX.modules.sql import cleaner_sql as sql
 
 if ALLOW_EXCL:
     CMD_STARTERS = ("/", "!")
