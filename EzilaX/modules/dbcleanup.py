@@ -9,10 +9,10 @@ from telegram.ext import (
     run_async,
 )
 
-import EzilaXBotV.modules.sql.global_bans_sql as gban_sql
-import EzilaXBotV.modules.sql.users_sql as user_sql
-from EzilaXBotV import DEV_USERS, OWNER_ID, dispatcher
-from EzilaXBotV.modules.helper_funcs.chat_status import dev_plus
+import EzilaX.modules.sql.global_bans_sql as gban_sql
+import EzilaX.modules.sql.users_sql as user_sql
+from EzilaX import DEV_USERS, OWNER_ID, dispatcher
+from EzilaX.modules.helper_funcs.chat_status import dev_plus
 
 
 def get_invalid_chats(update: Update, context: CallbackContext, remove: bool = False):
