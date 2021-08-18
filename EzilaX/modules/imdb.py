@@ -5,8 +5,8 @@ import requests
 from telethon import types
 from telethon.tl import functions
 
-from EzilaXBotV import telethn
-from EzilaXBotV.events import register
+from EzilaX import telethn
+from EzilaX.events import register
 
 langi = "en"
 
