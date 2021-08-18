@@ -12,9 +12,9 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import escape_markdown
 
-from EzilaXBotV import dispatcher
-from EzilaXBotV.modules.helper_funcs.handlers import CMD_STARTERS, SpamChecker
-from EzilaXBotV.modules.helper_funcs.misc import is_module_loaded
+from EzilaX import dispatcher
+from EzilaX.modules.helper_funcs.handlers import CMD_STARTERS, SpamChecker
+from EzilaX.modules.helper_funcs.misc import is_module_loaded
 
 FILENAME = __name__.rsplit(".", 1)[-1]
 
