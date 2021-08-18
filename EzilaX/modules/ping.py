@@ -5,9 +5,9 @@ import requests
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from EzilaXBotV import StartTime, dispatcher
-from EzilaXBotV.modules.disable import DisableAbleCommandHandler
-from EzilaXBotV.modules.helper_funcs.chat_status import sudo_plus
+from EzilaX import StartTime, dispatcher
+from EzilaX.modules.disable import DisableAbleCommandHandler
+from EzilaX.modules.helper_funcs.chat_status import sudo_plus
 
 sites_list = {
     "Telegram": "https://api.telegram.org",
