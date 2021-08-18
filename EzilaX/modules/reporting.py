@@ -12,10 +12,10 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-from EzilaXBotV import DRAGONS, LOGGER, TIGERS, WOLVES, dispatcher
-from EzilaXBotV.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from EzilaXBotV.modules.log_channel import loggable
-from EzilaXBotV.modules.sql import reporting_sql as sql
+from EzilaX import DRAGONS, LOGGER, TIGERS, WOLVES, dispatcher
+from EzilaX.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from EzilaX.modules.log_channel import loggable
+from EzilaX.modules.sql import reporting_sql as sql
 
 REPORT_GROUP = 12
 REPORT_IMMUNE_USERS = DRAGONS + TIGERS + WOLVES
