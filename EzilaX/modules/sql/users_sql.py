@@ -10,8 +10,8 @@ from sqlalchemy import (
     func,
 )
 
-from EzilaXBotV import dispatcher
-from EzilaXBotV.modules.sql import BASE, SESSION
+from EzilaX import dispatcher
+from EzilaX.modules.sql import BASE, SESSION
 
 
 class Users(BASE):
