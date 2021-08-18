@@ -1,9 +1,9 @@
 from telegram import ParseMode
 from telegram.ext import run_async
 
-from EzilaXBotV import dispatcher
-from EzilaXBotV.modules.disable import DisableAbleCommandHandler
-from EzilaXBotV.modules.helper_funcs.alternate import typing_action
+from EzilaX import dispatcher
+from EzilaX.modules.disable import DisableAbleCommandHandler
+from EzilaX.modules.helper_funcs.alternate import typing_action
 
 normiefont = [
     "a",
