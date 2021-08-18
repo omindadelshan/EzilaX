@@ -3,7 +3,7 @@ import time
 
 import aiohttp
 
-from EzilaXBotV.utils.uputils import humanbytes, time_formatter
+from EzilaX.utils.uputils import humanbytes, time_formatter
 
 
 async def download_file(url, file_name, message, start_time, bot):
