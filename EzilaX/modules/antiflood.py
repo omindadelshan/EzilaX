@@ -12,18 +12,18 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-from EzilaXBotV import TIGERS, WOLVES, dispatcher
-from EzilaXBotV.modules.connection import connected
-from EzilaXBotV.modules.helper_funcs.alternate import send_message
-from EzilaXBotV.modules.helper_funcs.chat_status import (
+from EzilaX import TIGERS, WOLVES, dispatcher
+from EzilaX.modules.connection import connected
+from EzilaX.modules.helper_funcs.alternate import send_message
+from EzilaX.modules.helper_funcs.chat_status import (
     bot_admin,
     is_user_admin,
     user_admin,
     user_admin_no_reply,
 )
-from EzilaXBotV.modules.helper_funcs.string_handling import extract_time
-from EzilaXBotV.modules.log_channel import loggable
-from EzilaXBotV.modules.sql import antiflood_sql as sql
+from EzilaX.modules.helper_funcs.string_handling import extract_time
+from EzilaX.modules.log_channel import loggable
+from EzilaX.modules.sql import antiflood_sql as sql
 
 FLOOD_GROUP = 3
 
