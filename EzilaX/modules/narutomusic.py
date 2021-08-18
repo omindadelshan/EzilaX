@@ -17,8 +17,8 @@ from youtube_dl.utils import (
     XAttrMetadataError,
 )
 
-from EzilaXBotV.events import register
-from EzilaXBotV.utils import progress
+from EzilaX.events import register
+from EzilaX.utils import progress
 
 try:
 
