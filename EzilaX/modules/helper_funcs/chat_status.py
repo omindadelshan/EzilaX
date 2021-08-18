@@ -389,6 +389,6 @@ def connection_status(func):
 
 
 # Workaround for circular import with connection.py
-from EzilaXBotV.modules import connection
+from EzilaX.modules import connection
 
 connected = connection.connected
