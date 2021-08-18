@@ -1,6 +1,6 @@
 from telethon import events
 
-from EzilaXBotV import telethn
+from EzilaX import telethn
 
 
 def register(**args):
