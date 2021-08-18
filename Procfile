@@ -1,3 +1,3 @@
-worker: python3 -m EzilaXBotV
-web: python3 -m EzilaXBotV
+worker: python3 -m EzilaX
+web: python3 -m EzilaX
 ps:scale worker=1
