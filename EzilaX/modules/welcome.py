@@ -23,7 +23,7 @@ from telegram.ext import (
 from telegram.utils.helpers import escape_markdown, mention_html, mention_markdown
 
 import EzilaX.modules.sql.welcome_sql as sql
-from EzilaXBotV import (
+from EzilaX import (
     DEMONS,
     DEV_USERS,
     DRAGONS,
