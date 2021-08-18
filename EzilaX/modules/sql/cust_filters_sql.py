@@ -2,8 +2,8 @@ import threading
 
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText, distinct, func
 
-from EzilaXBotV.modules.helper_funcs.msg_types import Types
-from EzilaXBotV.modules.sql import BASE, SESSION
+from EzilaX.modules.helper_funcs.msg_types import Types
+from EzilaX.modules.sql import BASE, SESSION
 
 
 class CustomFilters(BASE):
