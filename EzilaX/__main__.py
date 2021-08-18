@@ -34,7 +34,7 @@ from telegram.ext import (
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 
-from EzilaXBotV import (
+from EzilaX import (
     ALLOW_EXCL,
     BL_CHATS,
     CERT_PATH,
@@ -56,11 +56,11 @@ from EzilaXBotV import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from EzilaXBotV.modules import ALL_MODULES
-from EzilaXBotV.modules.helper_funcs.alternate import typing_action
-from EzilaXBotV.modules.helper_funcs.chat_status import is_user_admin
-from EzilaXBotV.modules.helper_funcs.misc import paginate_modules
-from EzilaXBotV.modules.helper_funcs.readable_time import get_readable_time
+from EzilaX.modules import ALL_MODULES
+from EzilaX.modules.helper_funcs.alternate import typing_action
+from EzilaX.modules.helper_funcs.chat_status import is_user_admin
+from EzilaX.modules.helper_funcs.misc import paginate_modules
+from EzilaX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
 Hello there, I'm 𝐸𝓏𝒾𝓁𝒶𝒳
@@ -80,7 +80,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="📜Source", url="Github.com/Sadew451/EzilaXBot-V2"
+            text="📜Source", url="Github.com/TeamEzilaX/EzilaX"
         ),
         InlineKeyboardButton(
             text="❔ Help", url="http://t.me/EzilaXBot?start=help"
@@ -112,7 +112,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Sadew Jayasekara](t.me/Darkridersslk)"""
+Support them  [SADEW JAYASEKAR](t.me/Darkridersslk)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -129,7 +129,7 @@ USER_SETTINGS = {}
 GDPR = []
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("EzilaXBotV.modules." + module_name)
+    imported_module = importlib.import_module("EzilaX.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
