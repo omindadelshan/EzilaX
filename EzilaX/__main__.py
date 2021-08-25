@@ -94,7 +94,7 @@ buttons = [
     ],
 ]
 
-EZILAX_IMG = "https://telegra.ph/file/584b1539d736325fab377.jpg"
+EZILAX_IMG = "https://telegra.ph/file/48a1645cc447a2ac1dae0.png"
 
 HELP_STRINGS = f"""
 *Main Commands :* [🤖](https://telegra.ph/file/584b1539d736325fab377.jpg)
