@@ -63,7 +63,7 @@ from EzilaX.modules.helper_funcs.misc import paginate_modules
 from EzilaX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm 𝐸𝓏𝒾𝓁𝒶𝒳
+👋Hello there, I'm 𝗞𝗜𝗡𝗚𝗦𝗧𝗘𝗥
 I'm a Powerful group manager bot With Cool Modules. Made by [Sadew Jayasekara• 🇱🇰](t.me/Darkridersslk)
 Hit /help to find my list of available commands
  
@@ -72,32 +72,32 @@ Hit /help to find my list of available commands
 buttons = [
     [
         InlineKeyboardButton(
-            text="📢Updates Channel", url="https://t.me/Ezila_Updates"
+            text="🧭 Update Channal 🧭", url="https://t.me/kingster_update"
         ),
         InlineKeyboardButton(
-            text="👥 Support Group", url="https://t.me/Ezila_Support"
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-            text="📜Source", url="Github.com/TeamEzilaX/EzilaX"
-        ),
-        InlineKeyboardButton(
-            text="❔ Help", url="http://t.me/EzilaXBot?start=help"
+            text="👥 Support Group", url="https://t.me/kingstersupportgroup"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add EzilaX to your group ➕",
-            url="t.me/EzilaXBot?startgroup=true",
+            text="🎭 Developer 🎭", url="https://t.me/omindas"
+        ),
+        InlineKeyboardButton(
+            text="🚀 Help 🚀", url="http://t.me/sr_kingster_bot?start=help"
+        ),
+    ],
+    [
+        InlineKeyboardButton(
+            text="➕ Add Kingster to your group ➕",
+            url="t.me/sr_kingster_bot?startgroup=true",
         ),
     ],
 ]
 
-EZILAX_IMG = "https://telegra.ph/file/48a1645cc447a2ac1dae0.png"
+EZILAX_IMG = "https://telegra.ph/file/f407b5f6fbed665ea410c.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/584b1539d736325fab377.jpg)
+*Main Commands :* [🤖](https://telegra.ph/file/f407b5f6fbed665ea410c.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -112,7 +112,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [SADEW JAYASEKAR](t.me/Darkridersslk)"""
+Support them  [OMINDA DILSHAN](t.me/omindas)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -373,8 +373,8 @@ def AnkiVector_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by EzilaX Updates.* "
-            f"\n\n Join [EzilaXUpdates](https://t.me/Ezila_Updates) To Keep Yourself Updated About {dispatcher.bot.first_name}"
+            text=f"* 👋Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by EzilaX Updates.* "
+            f"\n\n Join [DR PROJECTS](https://t.me/sdbotworld) To Keep Yourself Updated About {dispatcher.bot.first_name}"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
             f"\n\nYou Can Know More About Me By Clicking The Below Buttons",
@@ -384,14 +384,14 @@ def AnkiVector_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="How To Use Me", callback_data="aboutmanu_howto"
+                            text="⚡ How To Use Me ⚡", callback_data="aboutmanu_howto"
                         ),
                         InlineKeyboardButton(
-                            text="Terms and Conditions", callback_data="aboutmanu_tac"
+                            text="♒ Terms and Conditions ♒", callback_data="aboutmanu_tac"
                         ),
                     ],
-                    [InlineKeyboardButton(text="Help", callback_data="help_back")],
-                    [InlineKeyboardButton(text="Back", callback_data="aboutmanu_back")],
+                    [InlineKeyboardButton(text="🚀 Help 🚀", callback_data="help_back")],
+                    [InlineKeyboardButton(text="🔙 Back", callback_data="aboutmanu_back")],
                 ]
             ),
         )
@@ -415,24 +415,24 @@ def AnkiVector_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Admins", callback_data="aboutmanu_permis"
+                            text="🎭 Admins 🎭", callback_data="aboutmanu_permis"
                         ),
-                        InlineKeyboardButton(text="Help", callback_data="help_back"),
+                        InlineKeyboardButton(text="🚀 Help 🚀", callback_data="help_back"),
                     ],
-                    [InlineKeyboardButton(text="Back", callback_data="aboutmanu_")],
+                    [InlineKeyboardButton(text="🔙 Back", callback_data="aboutmanu_")],
                 ]
             ),
         )
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [SDBOTsInifinity](https://t.me/SDBOTs_Inifinity)."
+            f"\n\nBased on [DR PROJECT](https://t.me/sdbotworld)."
             f"\n\n{dispatcher.bot.first_name}'s source code was written by Sadew Jayasekara"
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_tac")]]
+                [[InlineKeyboardButton(text="🔙 Back", callback_data="aboutmanu_tac")]]
             ),
         )
 
@@ -497,9 +497,9 @@ def AnkiVector_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Credits", callback_data="aboutmanu_credit"
+                            text="🎓 Credits 🎓", callback_data="aboutmanu_credit"
                         ),
-                        InlineKeyboardButton(text="Back", callback_data="aboutmanu_"),
+                        InlineKeyboardButton(text="🔙 Back", callback_data="aboutmanu_"),
                     ]
                 ]
             ),
