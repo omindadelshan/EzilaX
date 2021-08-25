@@ -64,7 +64,7 @@ from EzilaX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
 👋Hello there, I'm 𝗞𝗜𝗡𝗚𝗦𝗧𝗘𝗥
-I'm a Powerful group manager bot With Cool Modules. Made by [Sadew Jayasekara• 🇱🇰](t.me/Darkridersslk)
+I'm a Powerful group manager bot With Cool Modules. Made by [OMINDA  DILSHAN 🇱🇰](t.me/omindas)
 Hit /help to find my list of available commands
  
 """
